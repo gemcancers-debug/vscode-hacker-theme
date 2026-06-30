@@ -1,0 +1,20 @@
+{
+  "name": "vscode-hacker-theme",
+  "displayName": "Hacker Green-Black",
+  "description": "A dark hacker-style green and black theme for VS Code",
+  "version": "1.0.0",
+  "publisher": "gemcancers-debug",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hacker Green-Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hacker-green-black-color-theme.json"
+      }
+    ]
+  }
+}

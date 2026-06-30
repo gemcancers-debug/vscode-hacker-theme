@@ -1,0 +1,59 @@
+{
+  "name": "Hacker Green-Black",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0a0a0a",
+    "editor.foreground": "#00ff41",
+    "editorCursor.foreground": "#00ff41",
+    "editor.lineHighlightBackground": "#111111",
+    "editor.selectionBackground": "#003300",
+    "editorLineNumber.foreground": "#006600",
+    "editorLineNumber.activeForeground": "#00cc33",
+    "sideBar.background": "#0d0d0d",
+    "sideBar.foreground": "#00cc33",
+    "activityBar.background": "#0a0a0a",
+    "activityBar.foreground": "#00ff41",
+    "statusBar.background": "#0a0a0a",
+    "statusBar.foreground": "#00cc33",
+    "titleBar.activeBackground": "#0a0a0a",
+    "titleBar.activeForeground": "#00ff41"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#006600"
+      }
+    },
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#00cc33"
+      }
+    },
+    {
+      "scope": ["string", "constant.other.symbol"],
+      "settings": {
+        "foreground": "#33ff66"
+      }
+    },
+    {
+      "scope": ["variable", "variable.other"],
+      "settings": {
+        "foreground": "#00ff41"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#00ff99"
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": {
+        "foreground": "#66ff99"
+      }
+    }
+  ]
+}
